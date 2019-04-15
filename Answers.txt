@@ -1,0 +1,21 @@
+Exericse 6:
+
+a)
+The reason age member variable is made protected is so that the base class and inherited class can modify it and use it only through public functions. (In public & protected Inheritance)
+Unlike private variables which cant be accessed by inherited class. (In all kinds of Inheritance)
+
+b)
+Errors are:
+first_name is not defined
+last_name is not defined
+
+c)
+We get these errors because first_name and last_name are private variables and they cant be accessed in inherited class.
+
+
+
+Exerice 8 and 9:
+
+There is no effect in changing the inheritance type from public to private or protected because we are not accessing the private members of base class.
+
+
